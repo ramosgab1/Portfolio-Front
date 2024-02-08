@@ -1,0 +1,142 @@
+.title {
+  font-family: "Raleway", sans-serif; /* Tem que referenciar a raleway na página principal. */
+  color: white;
+  font-size: 70px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  margin-bottom: 2px;
+}
+.subtitle {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 30px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+.body-text {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 30x;
+  padding-bottom: 5px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: #c83e4d 
+}
+
+.body {
+  background-color: #272838;
+}
+.menu li {
+  display: inline;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 50px;
+  text-align: center;
+  margin: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+.menu li a:hover { /* Muda tamanho e cor do menu quando o mouse tá em cima. */
+  font-size: 20px;
+  color: #c83e4d;
+}
+
+.menu li a.current { /* Deixa o link da página atual marcado com a corzinha. */
+    color: #C83E4D; 
+    
+}
+
+.container {
+    display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  text-align: center; /* Alinha o texto ao centro */
+}
+
+.center {
+  text-align: center;
+}
+
+.item-center{
+    align-items: center;
+}
+
+/* Text align = esquerda */
+.ta-l {
+  text-align: left;
+}
+
+/* Padding geral 25px */
+.p-25 {
+  padding: 25px;
+}
+
+.pa-introtext {
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+}
+
+/* Padding esquerda 25px */
+.pl-25 {
+  padding-left: 25px;
+  padding-bottom: 0px;
+}
+.wh-700 {
+  width: 100px;
+  height: 100px;
+}
+
+.br-50 {
+  border-radius: 50px;
+}
+
+.mb-50 {
+  padding: 50px;
+}
+
+.forms-container{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 10px;
+}
+.footer-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer-text {
+    font-family: "Raleway", sans-serif;
+    color: #c83e4d;
+    font-size: 10x;
+    text-transform: uppercase;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+  }
+
+.footer-icons-square{
+    height: 40px;
+    width: 40px;
+    margin-top: 1px;
+    padding: 5px;
+}
+.footer-icons2-square{
+    height: 60px;
+    width: 60px;
+    margin-top: 1px;
+    padding: 5px;
+}
